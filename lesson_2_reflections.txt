@@ -26,3 +26,4 @@ The commits from both branches are represented in the content of the next commit
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Automatic merging can be a huge timesaver, and most of the time accurate. However one must be aware of logical differences in the file, such as deleting a variable or changing its type, when that variable is referenced elsewhere in the file. 
