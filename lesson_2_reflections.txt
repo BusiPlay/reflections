@@ -13,6 +13,7 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 When working on a feature with multiple commits, but keeping master history clean. All commit history in the branch would reflect developer activity, but merging the branch into master would reflect the final outcome, keeping master's history focused on functionality added/fixed rather than developer activity.
+     **Edit - not true, since merging keeps branches individual commits in history. 
 
 How do the diagrams help you visualize the branch structure?
 diagrams show history of parent commits, and separate out commits in separate branches. 
@@ -20,6 +21,8 @@ diagrams show history of parent commits, and separate out commits in separate br
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The commits from both branches are represented in the content of the next commit. It is represented in the diagram as merging the two branches together because that's what it represents  - each branches commits are represented in the final product. 
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
