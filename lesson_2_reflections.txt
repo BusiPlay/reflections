@@ -12,6 +12,7 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When working on a feature with multiple commits, but keeping master history clean. All commit history in the branch would reflect developer activity, but merging the branch into master would reflect the final outcome, keeping master's history focused on functionality added/fixed rather than developer activity.
 
 How do the diagrams help you visualize the branch structure?
 
