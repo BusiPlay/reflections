@@ -6,5 +6,12 @@ Why might you want to always pull changes manually rather than having Git automa
 
 * So I can review the work done by contributors, and make decisions about whether I want their work reflected in my local repository, or decide how my work needs to fit in with their changes
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+* Forks are separate repositories, copied from an original, with all the original's history up to the point in time it was forked. Once forked, the original repository's history and the forked repository's history diverge - commits from one can not be pulled or pushed into the other. A fork should be used when you do not intend to collaborate with maintainers of the forked project, but want to take their work and use it for something separate and distinct. 
+
+* Clones are separate repositories, copied from an original, but all commits from the clone can be pushed back to the origin repository, or any other repository cloned from the origin, or set up as a remote with a common ancestor commit. Also, changes from origin can be pulled into the cloned repository. A clone should be used when you are collaborating with other people on a shared repository, or when you want to back up your work for access on different machines. 
+
+* Branches are labels for copies of a point in time(commits) within a single repository. Branches can be used for separate commits, but commits can be merged back and forth with other branches within the same repository. Branches can be used for experimental features, or to isolate bug fixes. Branches could be used similarly to forks, to create something separate and distinct, but that could be shared collaboratively with other users.
 
 
