@@ -18,3 +18,11 @@ What is the benefit of having a copy of the last known state of the remote store
 
 * Fetching changes would only require getting new commits since that last state, so speed of git fetch/pull is helped by this. You can also know how many commits you are ahead of the last known state of the remote, so it can potentially give you an idea of how needed a fetch may be, so you don't wander too much. (Integrate often)
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+* There are 2 concepts here - Distributed Version Control Systems (eg Git) and "DVCS Portals" (eg GitHub, Bitbucket). 
+
+* Without Git, I could use other Version Control Systems - the advantage of DVCS's over centralized version control systems are local repositories for speed and offline access, and the ability to shape local history before pushing to other users. Without Version Control at all, I would email or otherwise transfer files back and forth, which would be terrible - no history, just changes that would make it very difficult to isolate issues. 
+
+* Without a Portal, it would be difficult to coordinate changes between users. I would have to notify users manually of changes to a differeent branch, or ask them to merge changes, with no online review possible.
+
