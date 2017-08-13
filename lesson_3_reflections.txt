@@ -14,4 +14,7 @@ Describe the differences between forks, clones, and branches. When would you use
 
 * Branches are labels for copies of a point in time(commits) within a single repository. Branches can be used for separate commits, but commits can be merged back and forth with other branches within the same repository. Branches can be used for experimental features, or to isolate bug fixes. Branches could be used similarly to forks, to create something separate and distinct, but that could be shared collaboratively with other users.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+* Fetching changes would only require getting new commits since that last state, so speed of git fetch/pull is helped by this. You can also know how many commits you are ahead of the last known state of the remote, so it can potentially give you an idea of how needed a fetch may be, so you don't wander too much. (Integrate often)
 
